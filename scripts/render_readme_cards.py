@@ -36,6 +36,7 @@ THEMES = {
     "dark": dict(bg="#0e1726", fg="#eaf0fa", dim="#9aa8c0", acc="#7aa7ff",
                  line="#27364f", soft="#18253b", on="#0e1726"),
 }
+MIN_DIAS_ATIVOS = 30
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 MESES_LONGOS = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
                 "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
@@ -340,7 +341,7 @@ def readme(P, has_activity):
         "hero", f'{P["nome"]}. {P["cargo"]}. {P["frase"]} ' + ". ".join(
             f"{r}: {v}" for r, v in P["fatos"]) + ".", "100%") + "</a>")
     L.append('<p align="center">\n' + "\n".join(
-        picture(f"bloco-{i + 1}", f'{b[1]}: {" ".join(b[2])}', "32.5%")
+        picture(f"bloco-{i + 1}", f'{b[1]}: {" ".join(b[2])}', "32%")
         for i, b in enumerate(P["blocos"])) + "\n</p>")
     L.append(picture("tecnologias", "Tecnologias. " + ". ".join(
         f"{g}: {', '.join(i)}" for g, i in P["tecnologias"]) + ".", "100%"))
@@ -350,8 +351,8 @@ def readme(P, has_activity):
     if has_activity:
         L.append(picture("atividade", "Atividade no GitHub nos últimos 12 meses.", "100%"))
     L.append('<p align="center">\n'
-             f'<a href="{P["linkedin"]}">{picture("linkedin", "LinkedIn", "49%")}</a>\n'
-             f'<a href="mailto:{P["email"]}">{picture("email", "E-mail: " + P["email"], "49%")}</a>\n'
+             f'<a href="{P["linkedin"]}">{picture("linkedin", "LinkedIn", "48.5%")}</a>\n'
+             f'<a href="mailto:{P["email"]}">{picture("email", "E-mail: " + P["email"], "48.5%")}</a>\n'
              "</p>")
     return "\n\n".join(L) + "\n"
 
@@ -366,7 +367,8 @@ def main():
         path = ROOT / "data" / "contributions.json"
         if path.exists():
             data = json.loads(path.read_text(encoding="utf-8"))
-    has_activity = bool(data and data["days"] and sum(d["count"] for d in data["days"]) > 0)
+    # O card de atividade só entra com histórico suficiente para não parecer vazio.
+    has_activity = bool(data and sum(1 for d in data["days"] if d["count"]) >= MIN_DIAS_ATIVOS)
     files = {}
     for theme in THEMES:
         files[f"hero-{theme}.svg"] = hero(P, theme)
