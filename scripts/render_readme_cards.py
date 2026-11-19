@@ -149,7 +149,8 @@ class Card:
 # ------------------------------------------------------------------ cards
 
 def hero(P, theme):
-    c = Card(800, 344, theme, f'{P["nome"]}: {P["cargo"]}. {P["frase"]}')
+    fatos = P.get("fatos") or []
+    c = Card(800, 344 if fatos else 258, theme, f'{P["nome"]}: {P["cargo"]}. {P["frase"]}')
     p = c.p
     c.frame()
     tw = measure(P["selo"], "m", 13, 1)
@@ -160,8 +161,9 @@ def hero(P, theme):
     c.text(38, 150, P["nome"], "d", size, p["fg"], cls="up", delay=120, ls=-1.5)
     c.text(40, 190, P["cargo"], "b", fit(P["cargo"], "b", 23, 720), p["acc"], cls="up", delay=260)
     c.text(40, 222, P["frase"], "t", fit(P["frase"], "t", 20, 720), p["dim"], cls="up", delay=360)
-    c.rect(40, 253, 720, 1.5, p["line"], cls="wipe", delay=450)
-    for i, (rotulo, valor) in enumerate(P["fatos"][:3]):
+    if fatos:
+        c.rect(40, 253, 720, 1.5, p["line"], cls="wipe", delay=450)
+    for i, (rotulo, valor) in enumerate(fatos[:3]):
         x = 40 + i * 240
         c.text(x, 284, rotulo.upper(), "m", 12, p["dim"], cls="up", delay=560 + i * 90, ls=1.2)
         c.text(x, 310, valor, "b", fit(valor, "b", 17, 220), p["fg"], cls="up", delay=600 + i * 90)
@@ -339,7 +341,7 @@ def readme(P, has_activity):
     L = []
     L.append(f'<a href="{P["linkedin"]}">' + picture(
         "hero", f'{P["nome"]}. {P["cargo"]}. {P["frase"]} ' + ". ".join(
-            f"{r}: {v}" for r, v in P["fatos"]) + ".", "100%") + "</a>")
+            f"{r}: {v}" for r, v in P.get("fatos") or []), "100%") + "</a>")
     L.append('<p align="center">\n' + "\n".join(
         picture(f"bloco-{i + 1}", f'{b[1]}: {" ".join(b[2])}', "32%")
         for i, b in enumerate(P["blocos"])) + "\n</p>")

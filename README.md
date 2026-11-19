@@ -1,4 +1,4 @@
-<a href="https://www.linkedin.com/in/alissonkaipers/"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/hero-dark.svg"><img src="./cards/hero-light.svg" width="100%" alt="Álisson Kaipers. Engenheiro de software e IA aplicada · Coordenador de sistemas. Banco de dados e legado Oracle na mão; web e Python com agentes de IA. Especialidade: Banco Oracle e PostgreSQL. Foco: Cooperativas e agronegócio. Base: Rio Grande do Sul · Brasil."></picture></a>
+<a href="https://www.linkedin.com/in/alissonkaipers/"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/hero-dark.svg"><img src="./cards/hero-light.svg" width="100%" alt="Álisson Kaipers. Engenheiro de software e IA aplicada · Coordenador de sistemas. Banco de dados e legado Oracle na mão; web e Python com agentes de IA. "></picture></a>
 
 <p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/bloco-1-dark.svg"><img src="./cards/bloco-1-light.svg" width="32%" alt="Construo: Web e Python com agentes de IA"></picture>
