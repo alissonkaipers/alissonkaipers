@@ -1,0 +1,120 @@
+{
+  "usuario": "alissonkaipers",
+  "nome": "Álisson Kaipers",
+  "selo": "IA APLICADA EM SISTEMAS REAIS",
+  "cargo": "Engenheiro de software e IA aplicada · Coordenador de sistemas",
+  "frase": "Agentes, RAG e MCP em produção, do legado Oracle à web moderna.",
+  "fatos": [
+    [
+      "Foco",
+      "Cooperativas e agronegócio"
+    ],
+    [
+      "Atuação",
+      "Código e gestão de equipe"
+    ],
+    [
+      "Base",
+      "Rio Grande do Sul · Brasil"
+    ]
+  ],
+  "blocos": [
+    [
+      "01 · IA E WEB",
+      "Construo",
+      [
+        "Agentes de IA, web",
+        "e APIs em uso real"
+      ]
+    ],
+    [
+      "02 · LEGADO",
+      "Sustento",
+      [
+        "Oracle Forms, Reports",
+        "e PL/SQL em produção"
+      ]
+    ],
+    [
+      "03 · EQUIPE",
+      "Coordeno",
+      [
+        "Equipe de 8 pessoas,",
+        "do requisito à entrega"
+      ]
+    ]
+  ],
+  "tecnologias": [
+    [
+      "IA aplicada",
+      [
+        "Agentes de IA",
+        "RAG",
+        "MCP",
+        "IA generativa"
+      ]
+    ],
+    [
+      "Web e APIs",
+      [
+        "Python",
+        "Django",
+        "TypeScript",
+        "Next.js",
+        "React",
+        "React Native"
+      ]
+    ],
+    [
+      "Banco e legado",
+      [
+        "Oracle",
+        "PL/SQL",
+        "Oracle Forms",
+        "Oracle Reports",
+        "PostgreSQL"
+      ]
+    ],
+    [
+      "Operação e integração",
+      [
+        "Docker",
+        "Linux",
+        "GitHub Actions",
+        "Integração SAP"
+      ]
+    ]
+  ],
+  "formacao": [
+    [
+      "MBA",
+      "Ciência de Dados e Inteligência Artificial",
+      "UNINTER",
+      "2026–2027",
+      "Em curso"
+    ],
+    [
+      "Especialização",
+      "Engenharia de Software em IA Aplicada",
+      "UNIPDS",
+      "2026–2027",
+      "Em curso"
+    ],
+    [
+      "Especialização",
+      "Gestão da Tecnologia da Informação",
+      "UNINTER",
+      "2026–2027",
+      "Em curso"
+    ],
+    [
+      "Bacharelado",
+      "Engenharia de Software",
+      "UNINTER",
+      "2021–2026",
+      "Concluído"
+    ]
+  ],
+  "linkedin": "https://www.linkedin.com/in/alissonkaipers/",
+  "email": "alissonkaipers@gmail.com"
+}

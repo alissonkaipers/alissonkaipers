@@ -1,0 +1,6 @@
+.venv/
+preview-out/
+preview.html
+*.png
+__pycache__/
+.DS_Store
