@@ -6,7 +6,7 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/bloco-3-dark.svg"><img src="./cards/bloco-3-light.svg" width="32%" alt="Coordeno: Equipe de 8 pessoas, do requisito à entrega"></picture>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/tecnologias-dark.svg"><img src="./cards/tecnologias-light.svg" width="100%" alt="Tecnologias. IA aplicada: Agentes de IA, RAG, MCP, IA generativa. Banco de dados e legado: Oracle, PL/SQL, PostgreSQL, Modelagem, Oracle Forms, Oracle Reports. Web e Python com IA: Python, Django, TypeScript, Next.js, React, React Native. Operação e integração: Docker, Linux, GitHub Actions, Integração SAP."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/tecnologias-dark.svg"><img src="./cards/tecnologias-light.svg" width="100%" alt="Tecnologias. IA aplicada: Agentes de IA, RAG, MCP, IA generativa. Banco de dados e legado: Oracle, PL/SQL, PostgreSQL, Oracle Forms, Oracle Reports. Web e Python com IA: Python, Django, TypeScript, Next.js, React, React Native. Operação e integração: Docker, Linux, GitHub Actions, Integração SAP."></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/formacao-dark.svg"><img src="./cards/formacao-light.svg" width="100%" alt="Formação. MBA em Ciência de Dados e Inteligência Artificial, UNINTER, 2026–2027 (em curso). Especialização em Engenharia de Software em IA Aplicada, UNIPDS, 2026–2027 (em curso). Especialização em Gestão da Tecnologia da Informação, UNINTER, 2026–2027 (em curso). Bacharelado em Engenharia de Software, UNINTER, 2021–2026 (concluído)."></picture>
 
