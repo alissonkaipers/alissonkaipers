@@ -3,15 +3,15 @@
   "nome": "Álisson Kaipers",
   "selo": "IA APLICADA EM SISTEMAS REAIS",
   "cargo": "Engenheiro de software e IA aplicada · Coordenador de sistemas",
-  "frase": "Agentes, RAG e MCP em produção, do legado Oracle à web moderna.",
+  "frase": "Banco de dados e legado Oracle na mão; web e Python com agentes de IA.",
   "fatos": [
+    [
+      "Especialidade",
+      "Banco Oracle e PostgreSQL"
+    ],
     [
       "Foco",
       "Cooperativas e agronegócio"
-    ],
-    [
-      "Atuação",
-      "Código e gestão de equipe"
     ],
     [
       "Base",
@@ -20,19 +20,19 @@
   ],
   "blocos": [
     [
-      "01 · IA E WEB",
+      "01 · WEB COM IA",
       "Construo",
       [
-        "Agentes de IA, web",
-        "e APIs em uso real"
+        "Web e Python com",
+        "agentes de IA"
       ]
     ],
     [
-      "02 · LEGADO",
+      "02 · BANCO E LEGADO",
       "Sustento",
       [
-        "Oracle Forms, Reports",
-        "e PL/SQL em produção"
+        "Oracle, PL/SQL, Forms",
+        "e Reports em produção"
       ]
     ],
     [
@@ -55,7 +55,18 @@
       ]
     ],
     [
-      "Web e APIs",
+      "Banco de dados e legado",
+      [
+        "Oracle",
+        "PL/SQL",
+        "PostgreSQL",
+        "Modelagem",
+        "Oracle Forms",
+        "Oracle Reports"
+      ]
+    ],
+    [
+      "Web e Python com IA",
       [
         "Python",
         "Django",
@@ -63,16 +74,6 @@
         "Next.js",
         "React",
         "React Native"
-      ]
-    ],
-    [
-      "Banco e legado",
-      [
-        "Oracle",
-        "PL/SQL",
-        "Oracle Forms",
-        "Oracle Reports",
-        "PostgreSQL"
       ]
     ],
     [
