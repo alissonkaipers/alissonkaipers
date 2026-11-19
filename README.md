@@ -10,6 +10,8 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./cards/formacao-dark.svg"><img src="./cards/formacao-light.svg" width="100%" alt="Formação. MBA em Ciência de Dados e Inteligência Artificial, UNINTER, 2026–2027 (em curso). Especialização em Engenharia de Software em IA Aplicada, UNIPDS, 2026–2027 (em curso). Especialização em Gestão da Tecnologia da Informação, UNINTER, 2026–2027 (em curso). Bacharelado em Engenharia de Software, UNINTER, 2021–2026 (concluído)."></picture>
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/atividade-dark.svg"><img src="./cards/atividade-light.svg" width="100%" alt="Atividade no GitHub nos últimos 12 meses."></picture>
+
 <p align="center">
 <a href="https://www.linkedin.com/in/alissonkaipers/"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/linkedin-dark.svg"><img src="./cards/linkedin-light.svg" width="49%" alt="LinkedIn"></picture></a>
 <a href="mailto:alissonkaipers@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/email-dark.svg"><img src="./cards/email-light.svg" width="49%" alt="E-mail: alissonkaipers@gmail.com"></picture></a>
